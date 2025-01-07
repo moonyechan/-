@@ -6,7 +6,7 @@ n = int(input())
 
 qu = []
 
-for i in range(n):
+for _ in range(n):
     command = input().split()
     
     if command[0] == "push":
